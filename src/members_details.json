@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Lily VanderWoude",
+        "position": "Co-Orientation Chair",
+        "picture": "memberphotos/co-oc1.jpg"
+    },
+    {
+        "name": "Vedant Gupta",
+        "position": "Co-Orientation Chair",
+        "picture": "memberphotos/co-oc2.jpg"
+    },
+    {
+        "name": "Mehak Afzal",
+        "position": "VC Finance Chair",
+        "picture": "memberphotos/vcfinance.jpg"
+    },
+    {
+        "name": "Olivia Frederickson",
+        "position": "VC Leadership",
+        "picture": "memberphotos/vcleadership.jpg"
+    },
+    {
+        "name": "Victoria Zhou",
+        "position": "VC Marketing",
+        "picture": "memberphotos/vcmarketing.jpg"
+    },
+    {
+        "name": "Simona Tenche",
+        "position": "Co-VC Events",
+        "picture": "memberphotos/vcevents1.jpg"
+    },
+    {
+        "name": "Katherine Elder",
+        "position": "Co-VC Events",
+        "picture": "memberphotos/vcevents2.jpg"
+    }
+]
