@@ -30,3 +30,18 @@ p {
     margin: 0;
     color: #555;
 }
+
+@media (max-width: 600px) {
+    .member-photo {
+        width: 150px;
+        height: 150px;
+    }
+    .member-card {
+        width: 300px;
+    }
+
+    p{
+        font-size: larger;
+    }
+
+}
