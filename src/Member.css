@@ -1,0 +1,48 @@
+.members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+    
+.member-card {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    width: 250px;
+    transition: transform 0.3s ease-in-out;
+    background-color: #ccc;
+}
+  
+.member-card.dark {
+    background-color: rgb(140, 140, 140);
+    color: rgb(220, 220, 220);
+}
+    
+.member-card:hover {
+    transform: scale(1.1);
+}
+    
+.member-img {
+    margin-bottom: 10px;
+}
+  
+.member-img img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+@media (max-height: 300px) {
+    .member-img {
+        margin-bottom: 0px;
+    }
+
+    .member-img img {
+        width: 0%;
+        height: 0%;
+    }
+}
+    
+.member-info h2, p {
+    margin: 0;
+}

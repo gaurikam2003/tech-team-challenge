@@ -1,0 +1,36 @@
+.app {
+  text-align: center;
+  position: relative;
+}
+
+.app.light {
+  background-color: #8f54c6;
+  color: black;
+}
+
+.app.dark {
+  background-color: #501785;
+  color: rgb(220, 220, 220);
+}
+
+.app.light .slider {
+  transform: translateX(30px);
+}
+
+.app.dark .slider {
+  transform: translateX(0);
+}
+
+h1 {
+  position: relative;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  top: 22px;
+}
+
+@media (max-width: 700px) {
+  h1 {
+    margin-bottom: 80px;
+    top: 80px;
+  }
+}
