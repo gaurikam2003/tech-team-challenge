@@ -1,0 +1,53 @@
+.members-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .member-card {
+    background-color: #f3e5f5; /* Light purple background */
+    border: 1px solid #ce93d8; /* Medium purple border */
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 200px;
+    text-align: center;
+    transition: transform 0.2s, background-color 0.2s;
+  }
+  
+  .member-card:hover {
+    transform: scale(1.05);
+    background-color: #e1bee7; /* Slightly darker purple on hover */
+  }
+  
+  .member-picture {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 2px solid #ab47bc; /* Darker purple border */
+  }
+  
+  .member-name {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: #6a1b9a; /* Dark purple text */
+  }
+  
+  .member-position {
+    color: #8e24aa; /* Medium purple text */
+  }
+  
+  @media (max-width: 768px) {
+    .member-card {
+      max-width: 45%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .member-card {
+      max-width: 100%;
+    }
+  }
+  
