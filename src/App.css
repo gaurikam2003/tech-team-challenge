@@ -1,0 +1,110 @@
+/*imprting fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+.App {
+    text-align: center;
+
+    /*setting a background image*/
+    background-image: url('images/techteambackdrop.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.App-header {
+
+    /*header font settings*/
+    font-family: 'Staatliches', sans-serif;
+    font-size: 2em;
+    color: white;
+
+    /*banner settings*/
+    background-color: #6F1F85;
+    padding: 10px;
+}
+
+/*setting up contents under the header banner*/
+.mainpage {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+/*setting up contents that hold each members display*/
+.members-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+/*setting up distribution of each member card in the alloctaed space*/
+.member-cards {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*creating the properties of the card (white box)*/
+.member-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    max-width: 200px;
+    text-align: center;
+}
+
+/*creating the properties of the photo inside the card*/
+.member-photo {
+    width: 100%;
+    height: auto;
+    /*rounded borders*/
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/*text properties of the member name*/
+h2 {
+    font-family: 'Concert One', sans-serif;
+    font-size: 1.5em;
+    margin: 0em 0;
+}
+
+/*text properties of the member role*/
+p {
+    font-family: 'Concert One', sans-serif;
+    font-size: 1.2em;
+    color: #6F1F85;
+}
+
+/*creating the properties of the arrows and where they are located*/
+.arrows {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+/*creating the properties of the arrow button*/
+.arrow-btn {
+    background-color: #ffffff;
+    color: #6F1F85;
+    font-family: 'Staatliches', sans-serif;
+    border: 0px solid #6f1f8500;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/*changing the properties of the arrow button if mouse hovers*/
+.arrow-btn:hover {
+    background-color: #6F1F85;
+    color: #FCC606;
+}
