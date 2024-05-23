@@ -1,0 +1,36 @@
+.App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f1cdf5;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.App-header {
+    background-color: #530061;
+    padding: 20px;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+}
+
+.intro-box {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    margin-bottom: 20px; /* Added margin for spacing */
+    max-width: 80%;
+    align-self: center;
+    margin-top: 2rem;
+    transition: 350ms;
+}
+
+.intro-box:hover {
+    transform: scale(1.05);
+}
