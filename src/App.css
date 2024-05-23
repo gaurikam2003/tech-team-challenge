@@ -28,4 +28,9 @@ h1 {
     max-width: 80%;
     align-self: center;
     margin-top: 2rem;
+    transition: 350ms;
+}
+
+.intro-box:hover {
+    transform: scale(1.05);
 }
