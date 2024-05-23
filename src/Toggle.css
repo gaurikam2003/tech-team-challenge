@@ -1,0 +1,48 @@
+.toggle-switch {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  width: 60px;
+  height: 34px;
+  border-radius: 17px;
+  z-index: 1;
+  background-color: #ccc;
+  cursor: pointer;
+}
+  
+.toggle-switch.light {
+  background-color: #ccc;
+}
+  
+.toggle-switch.dark {
+  background-color: rgb(140, 140, 140);
+}
+  
+.toggle-switch.light .slider {
+  background-color: whitesmoke;
+}
+  
+.toggle-switch.dark .slider {
+  background-color: rgb(220, 220, 220);
+}
+  
+.toggle-switch .slider {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  transition: 0.2s;
+}
+  
+.slider.round {
+  border-radius: 17px;
+}
+
+@media (max-width: 700px) {
+  .toggle-switch {
+    margin-top: 0px;
+    right: calc(50% - 30px);
+  }
+}
