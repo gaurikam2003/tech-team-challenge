@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+
+/*general page setup*/
+html {
+    background-color: rgb(113, 31, 139);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* nav header */
+.main-nav ul {
+    padding-top: 1%;
+    margin: 0;
+    list-style-type: none;
+}
+
+.main-nav li {
+    display: inline;
+    padding: 1% 5%;
+}
+
+.main-nav a {
+    display: inline-block;
+    padding: 0.5em;
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.5em;
+    font-family: "Caveat Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main-nav li:hover {
+    background-color: rgba(0, 0, 0, 0.35);
+    border-radius: 20px;
+}
+
+/* page title */
+.page-title {
+    text-align: center;
+    font-size: 3em;
+    font-family: "Caveat Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(113, 31, 139);
+    background-color: rgb(254, 198, 1);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* members */
+.oc-members-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    font-family: "Caveat Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url('images/background.png');
+}
+
+.oc-member {
+    color: black;
+    background-color: azure;
+    width: 400px;
+    height: 520px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+    transform: translateX(400%);
+    transition: transform 0.5s ease;
+}
+
+.oc-member:nth-of-type(even) {
+    transform: translate(-400%);
+}
+
+.oc-member.show {
+    transform: translateX(0);
+}
+
+.oc-member .name {
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.oc-member .position {
+    font-weight: lighter;
+    color: rgb(73, 20, 89);
+    font-size: 2em;
+}
+
+.oc-member-img {
+    border-radius: 10%;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
