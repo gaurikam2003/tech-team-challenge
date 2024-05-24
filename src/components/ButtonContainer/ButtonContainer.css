@@ -1,0 +1,15 @@
+@import url(https://fonts.google.com/share?selection.family=Lilita+One);
+
+.button-container {
+    margin-bottom: 20px;
+    font-family: 'Lilita One', cursive;
+}
+
+.button-container button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5%;
+    border: none;
+}
