@@ -1,0 +1,66 @@
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap'); /* font for header and member role */
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap'); /* font for member name */
+
+/* header banner */
+.App {
+    background-image: url('backgrounddesign.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* header writing */
+.App-header {
+    font-family: 'Luckiest Guy';
+    font-size: 2em;
+    color: rgb(250, 240, 255);
+    text-align: center;
+    background-color: rgb(125, 30, 155);
+    padding: 10px;
+}
+
+/* member box */
+.member-box {
+    background: rgb(240, 210, 255);
+    border-radius: 25px;
+    margin: 20px;
+    padding: 20px;
+    max-width: 350px;
+    text-align: center;
+}
+
+/* transformation for hover effect (responsive element) -- box gets bigger and yellow */ 
+.member-box:hover {
+    transform: scale(1.05);
+    background-color: rgb(260, 180, 40);
+  }
+
+/* member box arrangement */
+.member-boxes {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+}
+
+/* member photo */
+.member-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+    margin-bottom: 15px;
+}
+
+/* member name */
+h2 {
+    font-family: 'Protest Strike';
+    font-size: 2.5em;
+}
+
+/* member role */
+p {
+    font-family: 'Luckiest Guy';
+    font-size: 2em;
+    color: rgb(110, 30, 135);
+}
