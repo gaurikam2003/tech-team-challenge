@@ -1,0 +1,11 @@
+.App {
+    text-align: center;
+  }
+  
+  .members-list {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; /* Center panels */
+    gap: 10px; 
+    padding: 30px;
+  }
