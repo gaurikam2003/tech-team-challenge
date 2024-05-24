@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 16px;
+  padding: 16px;
+  text-align: center;
+  width: 200px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+li:hover {
+  transform: translateY(-10px);
+}
+
+img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  margin-top: 10px;
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.2);
+}
+
+h1 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1em;
+  color: #666;
+  margin: 10px 0 0;
+}
+
+.additional-info {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
