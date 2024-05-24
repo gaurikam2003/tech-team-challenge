@@ -16,6 +16,8 @@
     object-fit: cover;
   }
 
+  /* Can add a decription/introduction from each member that displays when
+    hovering over a panel */
   .description {
     display: none; /* Keep description hidden until hover */
     position: absolute; 
